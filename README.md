@@ -12,8 +12,25 @@ In this project, we wrote a R script named run_analysis.R that does the followin
 
 ## Get Started
 
-1. Download the data source from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip it and ensure `UCI HAR Dataset` directory is in the same place with `run_analysis.R`. 
-2. Run `source("run_analysis.R")` in R Studio, and it will generate a new file `tiny_dataset.txt` within around 1 minute.
+Step 1. Download the data source from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip it and ensure `UCI HAR Dataset` directory is in the same place with `run_analysis.R`. 
+
+example:
+
+    Working Directory/
+        +-- run_analysis.R
+        +-- UCI HAR Dataset/
+                +-- activity_labels.txt
+                +-- features.txt
+                +-- test/
+                |       +-- subject_test.txt
+                |       +-- X_test.txt
+                |       +-- y_test.txt
+                +-- train/
+                        +-- subject_train.txt
+                        +-- X_train.txt
+                        +-- y_train.txt
+
+Step 2. Run `source("run_analysis.R")` in R Studio, and it will generate a new file `tiny_dataset.txt` within around 1 minute.
 
 ## Reference
 
